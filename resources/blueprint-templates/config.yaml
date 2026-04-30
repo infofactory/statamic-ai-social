@@ -1,0 +1,19 @@
+title: 'statamic-ai-social::cp.title'
+tabs:
+  prompts:
+    sections:
+      -
+        fields:
+          -
+            handle: prompts
+            field:
+              collapse: true
+              type: replicator
+              localizable: false
+              instructions: 'statamic-ai-social::cp.list.instructions'
+              sortable: false
+              button_label: 'statamic-ai-social::cp.list.new'
+              display: 'statamic-ai-social::cp.list.title'
+              sets:
+                prompts:
+                  sets:

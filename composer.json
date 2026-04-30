@@ -1,0 +1,39 @@
+{
+    "name": "infofactory/statamic-ai-social",
+    "autoload": {
+        "psr-4": {
+            "Infofactory\\StatamicAiSocial\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Infofactory\\StatamicAiSocial\\Tests\\": "tests"
+        }
+    },
+    "require": {
+        "statamic/cms": "^5.0",
+        "prism-php/prism": "^0.98.0",
+        "stillat/proteus": "^4.2"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^9.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "pixelfear/composer-dist-plugin": true
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Statamic Ai Social",
+            "description": "Statamic Ai Social addon"
+        },
+        "laravel": {
+            "providers": [
+                "Infofactory\\StatamicAiSocial\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

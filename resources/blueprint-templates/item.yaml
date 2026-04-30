@@ -1,0 +1,49 @@
+prompt:
+  display: 'statamic-ai-social::cp.item.title'
+  icon: edit-pen
+  fields:
+    -
+      handle: name
+      field:
+        type: text
+        display: statamic-ai-social::cp.item.name.display
+        localizable: false
+        instructions: statamic-ai-social::cp.item.name.instructions
+        placeholder: statamic-ai-social::cp.item.name.placeholder
+        required: true
+    -
+      handle: provider
+      field:
+        options:
+          -
+            key: key
+            value: label
+        type: select
+        display: statamic-ai-social::cp.item.provider.display
+        localizable: false
+        width: 50
+        instructions: statamic-ai-social::cp.item.provider.instructions
+        placeholder: statamic-ai-social::cp.item.provider.placeholder
+        replicator_preview: false
+        required: true
+    -
+      handle: model
+      field:
+        type: text
+        display: statamic-ai-social::cp.item.model.display
+        localizable: false
+        width: 50
+        instructions: statamic-ai-social::cp.item.model.instructions
+        placeholder: statamic-ai-social::cp.item.model.placeholder
+        replicator_preview: false
+        required: true
+    -
+      handle: instructions
+      field:
+        type: textarea
+        display: statamic-ai-social::cp.item.instructions.display
+        localizable: false
+        instructions: statamic-ai-social::cp.item.instructions.instructions
+        placeholder: statamic-ai-social::cp.item.instructions.placeholder
+        replicator_preview: false
+        required: true

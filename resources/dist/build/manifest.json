@@ -1,0 +1,13 @@
+{
+  "resources/css/social-post-addon.css": {
+    "file": "assets/social-post-addon-BYEZmjck.css",
+    "src": "resources/css/social-post-addon.css",
+    "isEntry": true
+  },
+  "resources/js/social-post-addon.js": {
+    "file": "assets/social-post-addon-yY4ESTmt.js",
+    "name": "social-post-addon",
+    "src": "resources/js/social-post-addon.js",
+    "isEntry": true
+  }
+}
